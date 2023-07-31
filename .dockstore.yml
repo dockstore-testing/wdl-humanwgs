@@ -11,6 +11,4 @@ workflows:
       - orcid: 0000-0002-7422-1194 # William Rowell
       - orcid: 0000-0002-5507-0896 # Heather Ward
       - orcid: 0009-0001-0205-4614 # Karen Fang
-    filters:
-      branches: /.*dockstore/
-      tags: /.*dockstore/
+
