@@ -1,0 +1,3 @@
+[submodule "workflows/tasks"]
+	path = workflows/tasks
+	url = https://bitbucket.org/dockstore_testuser2/dockstore-workflow.git
