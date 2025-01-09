@@ -1,6 +1,6 @@
 version 1.0
 
-import "wdl-common/wdl/structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 struct ReferenceData {
 	String name
