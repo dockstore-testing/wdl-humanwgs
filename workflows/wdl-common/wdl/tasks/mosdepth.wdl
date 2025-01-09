@@ -2,7 +2,7 @@ version 1.0
 
 # Calculate summary stats using mosdepth
 
-import "../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 task mosdepth {
 	input {

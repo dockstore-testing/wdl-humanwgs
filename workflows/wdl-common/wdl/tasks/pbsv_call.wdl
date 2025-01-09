@@ -2,7 +2,7 @@ version 1.0
 
 # Call SVs using pbsv
 
-import "../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 task pbsv_call {
 	input {

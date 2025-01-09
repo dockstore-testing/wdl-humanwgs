@@ -2,7 +2,7 @@ version 1.0
 
 # Zip and index a VCF file
 
-import "../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 task zip_index_vcf {
 	input {

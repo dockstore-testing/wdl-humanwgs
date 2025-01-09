@@ -2,7 +2,7 @@ version 1.0
 
 # Haplotag an aligned BAM file using a phased VCF with WhatsHap
 
-import "../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 task whatshap_haplotag {
 	input {

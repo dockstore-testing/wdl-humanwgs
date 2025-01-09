@@ -2,7 +2,7 @@ version 1.0
 
 # Calculate stats from a phased VCF using WhatsHap
 
-import "../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 task whatshap_stats {
 	input {
