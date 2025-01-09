@@ -2,7 +2,7 @@ version 1.0
 
 # Set runtime attributes across environments depending on the backend in use
 
-import "../../structs.wdl"
+import "https://raw.githubusercontent.com/dockstore-testing/wdl-humanwgs/refs/tags/v0.11-no-submodule/workflows/wdl-common/wdl/structs.wdl"
 
 workflow backend_configuration {
 	input {
